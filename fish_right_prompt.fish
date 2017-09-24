@@ -2,7 +2,7 @@
 function fish_right_prompt
   # Template
   set -l user_and_host ""
-  set -l current_folder (__parse_current_folder)
+  set -l current_folder (prompt_pwd)
   set -l git_branch_name ""
   set -l git_dirty ""
   set -l git_arrows ""
